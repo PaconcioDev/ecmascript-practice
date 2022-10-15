@@ -25,7 +25,7 @@ console.log(data); //! This will return { name: 'Paco', age: 19, country: 'Colom
 let modifiedData = { pet: "Cat", ...person, country };
 console.log(modifiedData); //! This will return { pet: 'Cat', name: 'Paco', age: 19, country: 'Colombia' }
 
-//* Rest
+//* Rest allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
 function sum(num, ...values) {
   console.log(values);
   console.log(num + values[0]);
