@@ -13,7 +13,6 @@ const animal = "Dog";
 animal = "Cat";
 console.log(animal);
 
-
 //* Scope
 const fruits = () => {
   if (true) {

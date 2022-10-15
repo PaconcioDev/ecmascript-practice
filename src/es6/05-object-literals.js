@@ -9,5 +9,5 @@ function newUser(user, age, country, uId) {
   };
 }
 
-console.log(newUser("Paconcio", 18, "CO", 111))
+console.log(newUser("Paconcio", 18, "CO", 111));
 //! This will return { user: 'Paconcio', age: 18, country: 'CO', id: 111 }
