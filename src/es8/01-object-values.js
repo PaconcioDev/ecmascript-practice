@@ -7,4 +7,3 @@ const countries = {
 };
 
 console.log(Object.values(countries)); //! [ 'Mexico', 'Colombia', 'Chile', 'Peru' ]
-
