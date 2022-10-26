@@ -50,6 +50,7 @@ console.log(paquito.greeting());
 //! This will return "Hello Paquito Lindo"
 
 //* getters & setters
+
 class GettersAndSetters {
   constructor(name, age) {
     this.name = name;
@@ -73,3 +74,6 @@ class GettersAndSetters {
 const gsInstance = new GettersAndSetters("Paquito", 18);
 console.log(gsInstance.uAge); //! This will return 18
 console.log((gsInstance.uAge = 29)); //! This will return 29
+console.log(gsInstance) //! This will return "GettersAndSetters { name: 'Paquito', age: 29 }"
+gsInstance.uAge = 345 //! This will change the this.age to "n" that's equal to 345 now 
+console.log(gsInstance) //! This will return "GettersAndSetters { name: 'Paquito', age: 345 }"
