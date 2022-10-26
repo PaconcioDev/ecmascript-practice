@@ -1,4 +1,4 @@
-package.json
+*.json
 
 # Logs
 logs
